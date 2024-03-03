@@ -1,4 +1,4 @@
-const DECISION_THRESHOLD = 80
+const DECISION_THRESHOLD = 80;
 
 let isAnimating = false;
 
