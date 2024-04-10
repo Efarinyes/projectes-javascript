@@ -29,3 +29,19 @@
    - Keyboard events
    - RequestAnimationFrame
    - Sprites
+
+# - Projecte 3:
+  ## Typewriter - Game
+  # Aprenem:
+  - Logica de Programació.
+  - Events de teclat
+  - Control d'Arrays
+  - DOM
+  
+# - Projecte 3:
+  ## Typewriter - Game
+   # We learn:
+   - Programming Logic.
+   - Keyboard events
+   - Control of Arrays
+   - DOM
