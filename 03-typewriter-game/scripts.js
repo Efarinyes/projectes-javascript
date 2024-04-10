@@ -9,8 +9,9 @@ const $results = document.querySelector('#results')
 const $wpm = $results.querySelector('#results-wpm')
 const $accuracy = $results.querySelector('#results-accuracy')
 const $button = document.querySelector('#reload-button')
+const $totalLetters = document.querySelector('#results-letters')
 
-const INITIAL_TIME = 30;
+const INITIAL_TIME = 10;
 let words = [];
 let currentTime = INITIAL_TIME;
 
@@ -24,7 +25,7 @@ function initGame() {
 
     words = INITIAL_WORDS.toSorted(
         () => Math.random() -0.5
-    ).slice(0, 40)
+    ).slice(0, 15)
     currentTime = INITIAL_TIME
 
     $time.textContent = currentTime;
@@ -169,4 +170,8 @@ function gameOver() {
     const wpm = correctWords * 60 / INITIAL_TIME
     $wpm.textContent = wpm
     $accuracy.textContent = `${accuracy.toFixed(2)}`
+    $totalLetters.textContent = totalLetters
+
+    console.log({wpm})
+    
 }
