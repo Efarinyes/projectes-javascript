@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ChatGPT Local</title>
+     <link rel="stylesheet" href="./chatgpt.css"> 
+   
+  </head>
+  <body>
+    <main>
+      <ul>
+        <li class="message bot">
+          <span>GPT</span>
+          <p>Resposta del bot GPT</p>
+        </li>
+        <li class="message user">
+          <span>Tu</span>
+          <p>Resposta Usuari</p>
+        </li>
+        <li class="message bot">
+          <span>GPT</span>
+          <p>Resposta del bot GPT molt llarga per veure que res no es trenca</p>
+        </li>
+        <li class="message user">
+          <span>Tu</span>
+          <p>Resposta Usuari</p>
+        </li>
+      </ul>
+    </main>
+    <form>
+      <input placeholder="Escriu el teu missatge" />
+      <button>Enviar</button>
+    </form>
+    <small>&nbsp;</small>
+    <template id="message-template">
+      <li class="message">
+        <span></span>
+        <p></p>
+      </li>
+    </template>
+
+    <script type="module" src="./scripts.js"></script>
+  </body>
+</html>
