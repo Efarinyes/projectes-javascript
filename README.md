@@ -37,7 +37,6 @@
   - Events de teclat
   - Control d'Arrays
   - DOM
-  
 # - Projecte 3:
   ## Typewriter - Game
    # We learn:
@@ -45,3 +44,16 @@
    - Keyboard events
    - Control of Arrays
    - DOM
+
+# - Projecte 6:
+## Tetris - Joc
+# Aprenem:
+  - Solucions de velocitat - prova tècnica contrarellotge
+  - Gestió d'Arrays
+  - Events de teclat
+# - Project 6:
+## Tetris - Game
+# We learn:
+  - Speed ​​solutions - technical time trial
+  - Management of Arrays
+  - Keyboard events
